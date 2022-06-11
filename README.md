@@ -1,3 +1,3 @@
 # Apotekita
 
-aplikasi pharmacy management system berbasis bahasa java
+aplikasi pharmacy management system menggunakan bahasa java
