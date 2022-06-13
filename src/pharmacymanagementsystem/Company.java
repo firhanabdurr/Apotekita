@@ -146,7 +146,7 @@ public class Company extends javax.swing.JFrame {
                 {null, null, null, null, null}
             },
             new String [] {
-                "ID", "Nama  Apotek", "Alamat", "Pengalaman", "Kontak"
+                "ID", "Nama  Apotek", "Alamat", "No.Lisensi", "Kontak"
             }
         ));
         CompanyTable.setRowHeight(25);
@@ -380,7 +380,7 @@ public class Company extends javax.swing.JFrame {
         
             
             int row =  ps.executeUpdate();
-            JOptionPane.showMessageDialog(this, "Company Successfully Added!");
+            JOptionPane.showMessageDialog(this, "Apotek berhasil ditambahkan!");
             conn.close();
             GetAllCompanies();
             
@@ -417,7 +417,7 @@ public class Company extends javax.swing.JFrame {
                 st.executeUpdate(query);
                 
                 GetAllCompanies();
-                JOptionPane.showMessageDialog(this, "Company Successfully Deleted!");
+                JOptionPane.showMessageDialog(this, "Apotek berhasil dihapus!");
            
                 
             } catch (SQLException ex) {
@@ -461,7 +461,7 @@ public class Company extends javax.swing.JFrame {
                 ps.executeUpdate();
                 
                 GetAllCompanies();
-                JOptionPane.showMessageDialog(this, "Company Successfully Updated!");
+                JOptionPane.showMessageDialog(this, "Apotek berhasil ditambahkan!");
                 
             } catch (SQLException ex) {
                 ex.printStackTrace();
