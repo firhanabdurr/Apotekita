@@ -17,7 +17,7 @@ import net.proteanit.sql.DbUtils;
 
 /**
  *
- * @author Anja
+ * @author Firhan
  */
 public class Company extends javax.swing.JFrame {
 
