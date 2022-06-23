@@ -7,7 +7,7 @@ package pharmacymanagementsystem;
 
 /**
  *
- * @author Anja
+ * @author Firhan
  */
 public class Splash extends javax.swing.JFrame {
 
